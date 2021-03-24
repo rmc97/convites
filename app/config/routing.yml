@@ -1,3 +1,8 @@
+invites:
+    resource: "@InvitesBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
